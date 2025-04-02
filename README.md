@@ -24,7 +24,7 @@ There are three main reasons for this project:
 
 ## Setting Up the Project
 ### Create.env file
-Create a .env file in the root with five variables:
+Create an .env file in the root with five variables:
 * POLL_INTERVAL = Time in ms that the project will poss the GitHub Enterprise API for changes
 * PORT = Port you want the project to run on, eg: 9009
 * GITHUB_AUTH_TOKEN = GitHub auth [token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
