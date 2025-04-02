@@ -22,7 +22,7 @@ There are three main reasons for this project:
 * Finally, we send ourselves a message with a list of all new reviews, and the URL for each to quickly access them.
    * Self-chat is a special kind of chat in Microsoft Team, I found the POST /chats/48:notes/messages endpoint will send a message to yourself.
 
-## Setting up project
+## Setting Up the Project
 ### Create.env file
 Create a .env file in the root with five variables:
 * POLL_INTERVAL = Time in ms that the project will poss the GitHub Enterprise API for changes
