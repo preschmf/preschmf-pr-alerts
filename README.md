@@ -25,8 +25,8 @@ There are three main reasons for this project:
 ## Setting up project
 ### Create.env file
 Create a .env file in the root with five variables:
-* POLL_INTERVAL = <Time in ms that the project will poss the GitHub Enterprise API for changes>
-* PORT = <Port you want the project to run on eg: 9009>
-* GITHUB_AUTH_TOKEN = <GitHub auth [token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)>
-* MICROSOFT_GRAPH_TOKEN = <This can be easily obtained by navigating to the [Graph Explorer](developer.microsoft.com/en-us/graph/graph-explorer), signing in, and clicking "access token" in the request>
-* GITHUB_ENTERPRSIE_BASE_URL = <The base URL for your companies Enterprise GitHub eg: https://github.mycompany.com/api/v3>
+* POLL_INTERVAL = Time in ms that the project will poss the GitHub Enterprise API for changes
+* PORT = Port you want the project to run on eg: 9009
+* GITHUB_AUTH_TOKEN = GitHub auth [token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens)
+* MICROSOFT_GRAPH_TOKEN = This can be easily obtained by navigating to the [Graph Explorer](developer.microsoft.com/en-us/graph/graph-explorer), signing in, and clicking "access token" in the request
+* GITHUB_ENTERPRSIE_BASE_URL = The base URL for your companies Enterprise GitHub eg: https://github.mycompany.com/api/v3
