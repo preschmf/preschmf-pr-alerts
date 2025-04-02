@@ -1,5 +1,4 @@
 import 'dotenv/config'
-import rootRouter from './routes/root.js'
 import express, { json, static as expressStatic } from 'express'
 import errorHandler from './middleware/errorHandler.js'
 import cookieParser from 'cookie-parser'
